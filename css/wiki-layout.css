@@ -154,15 +154,14 @@ footer p {
   --font-default-color: #333;
 }
 
-.gallery {
+.gallery-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* gap: 10px; */
-  width: 900px; /* 전체 너비 */
+  width: 900px;
   margin: auto;
 }
 
-.gallery img {
+.gallery-list img {
   width: 100%;
   height: auto;
   display: block;
