@@ -9,7 +9,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: "Jua", serif;
   font-weight: 400;
   font-style: normal;
@@ -55,24 +56,44 @@ h3.subtitle {
 
 h4 {
   font-size: 1.4rem;
-  margin-bottom: var(--page-subtitle-margin-y);
+  margin-top: var(--page-subtitle-margin-y);
+  margin-bottom: 10px;
 }
 
-section > p,
+h5 {
+  font-size: 1.1rem;
+  margin-top: var(--page-subtitle-margin-y);
+  margin-bottom: 10px;
+}
+
+/* section > p,
 article > p {
   line-height: 24px;
   text-indent: 8px;
+} */
+
+p {
+  line-height: 24px;
+  text-indent: 8px;
+  margin-bottom: 20px;
 }
 
-section,
+/* section,
 article {
   display: flex;
   flex-flow: column;
+} */
+
+.work-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 0px;
 }
 
 div.thumbnail {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   margin-bottom: var(--page-paragraph-margin-y);
 }
 
@@ -235,4 +256,8 @@ footer p {
 
 #comment-content {
   font-size: 15px;
+}
+
+#work-section {
+  display: flex;
 }

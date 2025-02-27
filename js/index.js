@@ -25,7 +25,9 @@ const registerComment = () => {
     alert('댓글을 입력하셔야죠..');
     return;
   }
-
+  
+  alert("댓글이 등록되었습니다!");
+  
   const newComment = document.createElement('li');
 
   newComment.innerHTML = `
